@@ -1,0 +1,92 @@
+    /
+      %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "content-type"}/
+      %meta{:content => "width=device-width, minimum-scale=1", :name => "viewport"}/
+      %meta{:content => "on", "http-equiv" => "cleartype"}/
+      %meta{:content => "index", :name => "robots"}/
+      %meta{:content => "True", :name => "HandheldFriendly"}/
+      %meta{:content => "320", :name => "MobileOptimized"}/
+
+      %meta{:content => "#{@me.metas.keywords}", :name => "keywords"}/
+      %meta{:content => "#{@me.name}", :name => "author"}/
+      %meta{:content => "About #{@me.name}", :property => "og:site_name"}/
+      %meta{:content => "About #{@me.name}", :property => "og:title"}/
+      %meta{:content => "About #{@me.name}", :name => "twitter:title"}/
+      %meta{:content => "#{@me.metas.info}", :name => "description"}/
+      %meta{:content => "#{@me.metas.info}", :property => "og:description"}/
+      %meta{:content => "#{@me.metas.info}", :name => "twitter:description"}/
+      %meta{:content => "#{@me.metas.pixurl}", :property => "og:image"}/
+      %meta{:content => "1200", :property => "og:image:width"}/
+      %meta{:content => "630", :property => "og:image:height"}/
+      %meta{:content => "#{@me.metas.pixtwit}", :name => "twitter:image"}/
+      %meta{:content => "1024", :name => "twitter:image:width"}/
+      %meta{:content => "512", :name => "twitter:image:height"}/
+      %meta{:content => "summary_large_image", :name => "twitter:card"}/
+      %meta{:content => "en_US", :property => "og:locale"}/
+      %meta{:content => "#{@me.metas.url}", :property => "og:url"}/
+      %meta{:content => "#{@me.metas.url}", :name => "twitter:url"}/
+      %meta{:content => "#{@me.metas.twithandle}", :name => "twitter:creator"}/
+    
+    / %meta{:content => "@aboutdotme", :name => "twitter:site"}/
+    / %meta{:content => "aboutme_prod:page", :property => "og:type"}/
+    / %meta{:content => "249413078192", :property => "fb:app_id"}/  
+    / %meta{:content => "828605907544-2lag7tdq7k3ebk4pvjiu45vdpggiu2k0.apps.googleusercontent.com", :name => "google-signin-client_id"}/
+    / %meta{:content => "#329c85", :name => "msapplication-TileColor"}/
+    / %meta{:content => "https://cdn.about.me/images/icons/favicon/favicon-144-MS.png", :name => "msapplication-TileImage"}/
+    / %link{:href => "https://cdn.about.me/images/icons/favicon/favicon-152.png", :rel => "apple-touch-icon"}/
+    / %link{:href => "https://cdn.about.me/images/icons/favicon/favicon.ico", :rel => "shortcut icon"}/
+    
+    = stylesheet_link_tag "cedar.css"
+    /
+      css
+      body {background-color: #333;}
+      .theface {background-image:url(#{@me.metas.pixrel}) !important;
+      background-position: #{@me.metas.pixpos};}
+      .topnav {background-color:#832 !important;} 
+      .logo {color:#fff !important;font-weight:bold;}
+  /
+    .page-container
+      .page-content.color-dark
+        %nav.topnav.template-large
+          %ul.applinks
+            %li.logo-container
+              %a.logo{:href => "/"}
+                = @me.metas.brand
+          %ul.userlinks
+            - @me.actionbuttons.each do |i|
+              %li
+                %a.button.outlined{:href=>"#{i.link}"}
+                  = i.alt
+
+
+
+
+.hidden
+  /////////////////////////////////////////////////
+  .heading
+    %h1 
+    %p
+      Last revised 30 May 2015 by Shahrukh Merchant to 
+      add updated Tango-A information.
+      %br/
+      Previous revision August 2008 by Shahrukh Merchant
+
+  /////////////////////////////////////////////////
+  .shorttoc
+    %h2 Shortcuts to Most Frequently Requested Links
+    %ul
+      %li
+        %a{:href => "tango-L-rules.htm"} Tango-L posting rules and instructions
+      %li          
+        %a{:href => "tango-A-rules.htm"} Tango-A posting rules and instructions
+      %li    
+        %a{:href => "#FAQ-Plaintext"}
+          How to send mail in plaintext (unformatted)
+          rather than HTML (formatted) (applies to Tango-L and Tango-A)
+      %li  
+        %a{:href => "#FAQ-Topics"}
+          What is a geographical prefix and why do I need it
+          (applies to Tango-A only)?
+      %li
+        %a{:href => "#FAQ"} Other Frequently Ask Questions (FAQ)
+  
+   

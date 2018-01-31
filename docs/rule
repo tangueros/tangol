@@ -1,0 +1,356 @@
+///////////////////////////////////////////////////
+%a{:name => "FAQ"}>
+%h2 
+  CONTENTS
+%ul
+  %li
+    %a{:href => "#What"} What are these lists?
+  %li
+    %a{:href => "#Subscribe"} Subscribing and Unsubscribing
+  %li
+    %a{:href => "#Rules"} List Rules, Policies and Guidelines
+  %li
+    %a{:href => "#Post"} How to Post to the List
+  %li
+    %a{:href => "#Archives"} List Archives
+  %li
+    %a{:href => "#Resources"} Useful Resources
+  %li
+    %a{:href => "#Webmasters"} Information for Webmasters
+  %li
+    %a{:href => "#FAQ"} FAQ
+    %ul
+      %li
+        %a{:href => "#FAQ"}
+          Difficulties in Subscribing, Unsubscribing,
+          Changing Options
+      %li
+        %a{:href => "#FAQ"} Mail formatting and posting
+      %li
+        %a{:href => "#FAQ"} Mail not being delivered or posted
+      %li
+        %a{:href => "#FAQ"} Withdrawing a posting or removing from archive
+      %li
+        %a{:href => "#FAQ"} Moderation
+      %li
+        %a{:href => "#FAQ"} Other
+
+
+///////////////////////////////////////////////////
+/ What
+%a{:name => "What"}>
+%h2 What are these lists?
+%p
+  The Tango-L and Tango-A lists are the longest-running international Internet
+  mailing lists related to the Argentine Tango. Tango-L is a discussion list for
+  discussion of any aspect of the Argentine Tango and Tango-A is an announcement
+  list for major Tango events worldwide. Tango-L was founded in 1995 and Tango-A
+  was created in 1999 to separate the (largely non-commercial) discussions on
+  Tango-L from announcements of events by their organizers on Tango-A. They have
+  played a significant role in making the Tango world smaller.
+%p
+  Membership is open to anyone. The list is unmoderated, although conformance
+  to the
+  %a{:href => "#Rules"} list rules and policies
+  (mostly common sense and a
+  restatement of netiquette) is expected and enforced where necessary as list
+  administrator time permits. Membership in each list is about 1000, and posting
+  volume varies between 5 and 25 messages per day (a daily digest is available for
+  those who prefer their Tango in fewer but larger doses).
+%p
+  Tango-L and Tango-A are complementary lists and most subscribers choose to
+  subscribe to both. Tango-L is interactive and often opinionated and more like a
+  discussion forum. Tango-A is for announcements--while any member can post there,
+  postings are typically announcements made by event organizers or occasionally
+  queries by travellers seeking Tango in various parts of the world that they may
+  be travelling to. Tango-A has a "topics" option that allows subscribers to
+  receive postings limited to their geographical area of interest, but again most
+  subscribers choose to receive all (presumably because they have an interest in
+  knowing what's going in elsewhere in the Tango world).
+  
+  
+///////////////////////////////////////////////////
+/ Subscribe  
+%a{:name => "Subscribe"}>
+%h2 Subscribing and Unsubscribing
+%p
+  You can
+  %b subscribe
+  to the list in one of two ways (Tango-L and Tango-A
+  are independent as far as the list management 
+  software is concerned and need to be subscribed to 
+  individually):
+%ul
+  %li
+    %b Recommended.
+    Visit the list website at
+    %a{:href => "http://mailman.mit.edu/mailman/listinfo/tango-L"}
+      http://mailman.mit.edu/mailman/listinfo/tango-L
+    (for Tango-L) or
+    %a{:href => "http://mailman.mit.edu/mailman/listinfo/tango-A"}
+      http://mailman.mit.edu/mailman/listinfo/tango-A
+    (for Tango-A) and follow the instructions. 
+    Basically, you enter your e-mail address and full 
+    name, and you may also choose a password (or be 
+    assigned one) for later administration
+    of your membership. 
+    You can also choose whether you want to receive 
+    messages individually as they are posted, 
+    or have them compiled in a daily "digest" and
+    mailed to you once a day.
+  %li      
+    Alternatively, you may subscribe the old-fashioned way by sending an
+    e-mail message to
+    %b
+      %a{:href => "mailto:Tango-L-request@mit.edu?subject=subscribe"}
+        Tango-L-request@mit.edu
+    or
+    %b
+      %a{:href => "mailto:Tango-A-request@mit.edu?subject=subscribe"}
+        Tango-A-request@mit.edu
+    with the word
+    %b
+      %i subscribe
+    in the
+    subject field or the body of the e-mail. There are many other command-line
+    messages with a plethora of options for the nostalgic amongst us who prefer
+    them to the web interfaces (where you can of course achieve the same thing).
+    Send the command
+    %i
+      %b help
+    to the
+    %i -request
+    address above to get a complete
+    list.
+        
+%p
+  You can
+  %b unsubscribe
+  to the list in one of two ways as well (Tango-L
+  and Tango-A are independent and need to be unsubscribed from individually)::
+%ul
+  %li
+    %b Recommended.
+    Visit the list website at
+    %a{:href => "http://mailman.mit.edu/mailman/listinfo/tango-L"}
+      http://mailman.mit.edu/mailman/listinfo/tango-L
+    (for Tango-L) or
+    %a{:href => "http://mailman.mit.edu/mailman/listinfo/tango-A"}
+      http://mailman.mit.edu/mailman/listinfo/tango-A
+    (for Tango-A) and follow
+    the instructions. If you have forgotten your password (which you will need,
+    along with your e-mail address, to unsubscribe), there is an option for having
+    it e-mailed to you.
+  %li  
+    Alternatively, you may send an e-mail message to
+    %b
+      %a{:href => "mailto:Tango-L-request@mit.edu?subject=unsubscribe"}
+        Tango-L-request@mit.edu
+    or
+    %b
+      %a{:href => "mailto:Tango-A-request@mit.edu?subject=unsubscribe"}
+        Tango-A-request@mit.edu
+    with the word
+    %b
+      %i unsubscribe
+    in the
+    subject field or the body of the e-mail.
+
+%p
+  In either case, there are options to unsubscribe an e-mail address other than
+  the one you are sending the e-mail from, if you know the password or have access
+  to that e-mail account.
+ 
+ 
+ 
+ 
+ 
+///////////////////////////////////////////////////
+/ Rules
+%a{:name => "Rules"}>
+%h2 List Rules, Policies and Guidelines
+%p
+  %b
+    Personal attacks of individuals (also called
+    %i ad hominem
+    attacks) have proven to be the most disruptive, 
+    with many subscribers leaving the list as a result. 
+    Hence, violators of this rule are subject to 
+    removal without notice.
+%p
+  The usage rules below for the Tango-L list have basically remained unchanged
+  since 1995, when the list was created, except for edits in 1999 to reflect the
+  formation of Tango-A, and minor clarifications and formatting modifications
+  since then. Owing to limited administrator bandwidth, these rules are
+  not always or uniformly enforced;
+  %i however, they continue to be in effect
+  . Even aside for the violation of the "no personal attacks" 
+  rule stated above, repeated or intentional abusers of 
+  %i any
+  of the rules may be removed
+  without notice. (Limited time availability by the volunteer administrators does
+  not allow them to the luxury of enforcing all the rules, nor of handholding the
+  most flagrant abusers.)
+%p
+  %b Tango-L:
+  Please
+  %b
+    %a{:href => "tango-L-rules.htm"} click here
+  to
+  see the detailed posting and participation rules for Tango-L.
+%p
+  %b Tango-A:
+  Please
+  %b
+    %a{:href => "tango-A-rules.htm"} click here
+  to see the detailed posting and participation rules 
+  for Tango-A.
+  
+  
+///////////////////////////////////////////////////
+/ Post
+%a{:name => "Post"}
+%h2 How to Post to the List
+%p
+  You have to be a member of the list to post to it. Once you are a member, send
+  e-mail to
+  %a{:href => "mailto:tango-L@mit.edu"} tango-L@mit.edu
+  to post to
+  Tango-L, and to
+  %a{:href => "mailto:tango-A@mit.edu"} tango-A@mit.edu
+  to post to
+  Tango-A. Note that the list address (Tango-L@mit.edu or Tango-A@mit.edu)
+  %i must
+  be in the To: or Cc: field of your email, i.e., "Blind Carbon Copies" are not
+  allowed. Also, the Tango-A list requires that the Subject line start with a
+  geographical prefix (SA, NA-E:, NA-C:, NA-W:, EU-E:, EU-W:, AASP: or MISC:)
+  otherwise it will not be distributed properly. Make sure you read the
+  %a{:href => "#Rules"} Tango-L and Tango-A rules
+  for detailed instructions before
+  posting.
+%p
+  The list accepts only plaintext (non-HTML) mail and, for protection against
+  viruses, etc., and to keep the size of the e-mails and archives manageable, no
+  attachments either. You may feel free to provide links in your e-mail postings
+  to web sites with relevant photos, etc. If you send HTML mail, it may be held
+  owing to its size being too large, or it may be automatically reformatted into
+  plaintext with unpredictable results.
+
+
+
+///////////////////////////////////////////////////
+/ Archives
+%a{:name => "Archives"}>
+%h2 List Archives 
+%p
+  The Tango-L and Tango-A lists have been archived by Lucy Lynch at
+  %a{:href => "http://pythia.uoregon.edu/~llynch/Tango-L/index.html"}
+    http://pythia.uoregon.edu/~llynch/Tango-L/index.html
+  and
+  %a{:href => "http://pythia.uoregon.edu/~llynch/Tango-A/index.html"}
+    http://pythia.uoregon.edu/~llynch/Tango-A/index.html
+  respectively, since
+  2001, and it is expected that this will continue even with the existence of the
+  Mailman archives (see below). This archive is accessible to anyone.
+%p
+  In addition, however, the Mailman software also provides for automatic
+  archiving of lists hosted by Mailman. Since the Tango-L and Tango-A lists were
+  moved to the Mailman software (from Listserv, where they were hosted from 1995)
+  in April 2006, the Mailman archives exist only from May 2006 onwards. These archives may be found at
+  %a{:href => "http://mailman.mit.edu/pipermail/tango-l/"}
+    http://mailman.mit.edu/pipermail/tango-l/
+  and
+  %a{:href => "http://mailman.mit.edu/pipermail/tango-a/"}
+    http://mailman.mit.edu/pipermail/tango-a/
+  respectively, and are also
+  publicly accessible. If you can't find them there, go to the main list homepage
+  at
+  %a{:href => "http://mailman.mit.edu/mailman/listinfo/tango-l"}
+    http://mailman.mit.edu/mailman/listinfo/tango-l
+  or
+  %a{:href => "http://mailman.mit.edu/mailman/listinfo/tango-a"}
+    http://mailman.mit.edu/mailman/listinfo/tango-a
+  and there will be a link to
+  the list archives at the top.
+ 
+ 
+///////////////////////////////////////////////////
+/ Resources
+%a{:name => "Resources"}> 
+%h2 Useful Resources
+%p
+  There are far too many Tango-related web sites to 
+  attempt to catalogue even the most useful ones here 
+  in any comprehensive way. 
+  Instead, we list a selected
+  set of Internet resources (including a few links).
+%ul
+  %li
+    Tango-L and Tango-A archives (see the note above 
+    on
+    %a{:href => "#Archives"} List Archives
+    )
+  %li  
+    Administrative Page (to unsubscribe or change your subscription options)
+    for
+    %a{:href => "http://mailman.mit.edu/mailman/options/tango-l"} Tango-L
+    or
+    %a{:href => "http://mailman.mit.edu/mailman/options/tango-a"} Tango-A
+    .
+  %li
+    Subscription Page for
+    %a{:href => "http://mailman.mit.edu/mailman/listinfo/tango-l"} Tango-L
+    or
+    %a{:href => "http://mailman.mit.edu/mailman/listinfo/tango-a"} Tango-A
+    . 
+  %li  
+    List of Milongas in Buenos Aires:
+    %a{:href => "http://www.buenosairesmilongas.com/"} BuenosAiresMilongas.com
+  %li    
+    List of Tango Festivals worldwide
+    %a{:href => "http://festivals.tango.info/"}  festivals.tango.info
+  %li    
+    Comprehensive list of Tango links:
+    %a{:href => "http://eng.tango.info/"}  eng.tango.info
+  %li    
+    Other Tango-related discussion lists (generally 
+    local or regional or topic-specific lists): 
+    Many of these are hosted on yahoogroups, so you can
+    go to
+    %a{:href => "http://www.yahoogroups.com/", :target => "_blank"} Yahoogroups.com
+    and search for the keyword
+    %b
+      %i tango
+    and browse through the list to
+    see any of interest.
+
+
+///////////////////////////////////////////////////
+/ Webmasters
+%a{:name => "Webmasters"}
+%h2 Information for Webmasterss
+%p
+  %i
+    If you have a web site that has details on subscribing to Tango-L and
+    Tango-A, list rules, etc., you may now point instead to this site, which will
+    always have the latest information about these lists. Recommended basic text is
+    as follows, but of course you may use your own variation and commentary if you'd
+    like:
+  %blockquote
+    "
+    %b Tango-L
+    and
+    %b Tango-A
+    are two long-running and popular worldwide Internet 
+    mailing lists for the Argentine Tango that have 
+    existed since 1995. 
+    Anyone may subscribe to these lists.
+    %b Tango-L
+    is for discussion about any aspect of Tango, and
+    %b Tango-A
+    is for announcements of
+    major Tango events by region. Please go to
+    %u 
+      %b www.Tango-L.com
+    for details about these lists, how to subscribe, 
+    list policies, etc."

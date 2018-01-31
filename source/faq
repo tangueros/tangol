@@ -1,0 +1,791 @@
+/ font{:face => "arial, Arial, Helvetica"}
+/ h2 = font{:color => "#006666"}
+/ h3 = font{:color => "#006666"}
+
+///////////////////////////////////////////////////
+%a{:name => "FAQ"}>
+%h2 
+  Frequently Asked Questions (FAQ)
+
+/ quick toc
+%h3 Difficulties in Subscribing, Unsubscribing, Changing Options
+%ul
+  %li
+    %a{:href => "#FAQ-ChangeOptions"}
+      How do I unsubscribe, check my subscription
+      or change my list options or subscriptions?
+  %li
+    %a{:href => "#FAQ-Unsubscribe"}
+      I am trying to unsubscribe from the list 
+      following all the instructions and I
+      can't. Get me off!
+  %li
+    %a{:href => "#FAQ-ChangeEmail"}
+      I have a new email address and I want to change 
+      it in the list. How can I do it?
+
+%h3 Mail formatting and posting
+%ul
+  %li
+    %a{:href => "#FAQ-Plaintext"}
+      How do I send mail in "plaintext" (whatever that 
+      is) as opposed to HTML (whatever
+      %i that
+      is)?
+  %li
+    %a{:href => "#FAQ-Topics"}
+      What are the "geographical prefix" letters like
+      "NA-E:" that appear in the Subject of Tango-A 
+      postings and why do I need them?
+
+%h3 Mail not being delivered or posted
+%ul
+  %li
+    %a{:href => "#FAQ-NotAllowed"}
+      I tried to send a message to the list and got a
+      automatic reply saying that I am not allowed to 
+      post to the list! Why is that?
+      I've been a member of the list for ages!
+  %li
+    %a{:href => "#FAQ-DisappearedMail"}
+      My mail to the list did not appear on the list 
+      and I got no explanatory
+      message or rejection. What happened?
+  %li
+    %a{:href => "#FAQ-ContentType"}
+      I am subscribed to the list but am not receiving (or
+      have stopped receiving) email from the list.
+  %li
+    %a{:href => "#FAQ-ContentType"} 
+      "The message's content type was not explicitly 
+      allowed"
+
+%h3 Withdrawing a Posting or Removing From Archive
+%ul
+  %li
+    %a{:href => "#FAQ-RemovePosting"}
+      I changed my mind about a posting I made (or
+      said something embarrassing that I now regret, 
+      or is coming back to haunt me)
+      and want to make it go away!
+
+%h3 Moderation
+%ul
+  %li
+    %a{:href => "#FAQ-WhyModerated"}
+      My mail to the list did not appear on the list
+      and I got an email saying it was sent to the 
+      moderator for approval. Why are
+      my posts being moderated and those of others not?
+  %li        
+    %a{:href => "#FAQ-WhyRulesReminder"}
+      Why did I get a reminder or warning about
+      a rule infraction when I see occasionally other 
+      posts that have violated that same rule?
+  %li
+    %a{:href => "#FAQ-DontLikeRules"}
+      What if I don't agree with the list rules or
+      the way they are being enforced?
+
+%h3 Other
+%ul
+  %li
+    %a{:href => "#FAQ-Other"}
+      I have another question that is not answered on 
+      the FAQ nor anywhere else on
+      this website as far as I can tell.
+
+
+
+
+///////////////////////////////////////////////////
+/ FAQ Change Options
+%a{:name => "FAQ-ChangeOptions"}>
+.question
+  How do I unsubscribe, check my
+  subscription or change my list options 
+  or subscriptions?
+.answer
+  Here are the step-by-step instructions:
+  %ol
+    %li
+      Go to the
+      %a{:href => "http://mailman.mit.edu/mailman/listinfo/tango-l"}
+        Tango-L
+      administrative page at
+      %a{:href => "http://mailman.mit.edu/mailman/listinfo/tango-l"}
+        http://mailman.mit.edu/mailman/listinfo/tango-l
+      (and/or the
+      %a{:href => "http://mailman.mit.edu/mailman/listinfo/tango-a"} 
+        Tango-A
+      administrative page at
+      %a{:href => "http://mailman.mit.edu/mailman/listinfo/tango-a"}
+        http://mailman.mit.edu/mailman/listinfo/tango-a
+      , depending on which list(s) 
+      you want to check or modify your subscription for.
+    %li
+      At the bottom of the page, enter the email address 
+      under which you are
+      subscribed and click on the "Unsubscribe or Edit Options" 
+      button at the bottom of the page. 
+      (If you cannot remember the email address under 
+      which you are subscribed, see the FAQ article on
+      %a{:href => "#FAQ-Unsubscribe"} Difficulties in Unsubscribing
+      .)
+    %li
+      On the next page you will be prompted for your password. 
+      If you don't remember it, you can click on the 
+      "Password Reminder" button and it will be
+      emailed to you at the address you specified 
+      (assuming that that address is, in
+      fact, subscribed to the list). 
+      If you can no longer receive email at that
+      email address, see the FAQ article on
+      %a{:href => "#FAQ-Unsubscribe"} Difficulties in Unsubscribing
+      .
+    %li
+      Once you are successfully logged in, you can 
+      check your options,
+      unsubscribe, change to or from the digest mode, 
+      and other fun options if you
+      are into that sort of thing. 
+      Most of the options can be changed globally,
+      i.e., you can specify them to apply to both 
+      Tango-L and Tango-A (and any other
+      lists at mit.edu that you are subscribed to --
+      not likely unless you are an MIT
+      student or affiliate).
+
+
+///////////////////////////////////////////////////
+/ FAQ Unsubscribe
+%a{:name => "FAQ-Unsubscribe"}
+.question
+  I am trying to unsubscribe from the list following 
+  all the instructions and I can't. Get me off!
+.answer
+  If you followed all the
+  %a{:href => "#FAQ-ChangeOptions"} instructions for unsubscribing above
+  , and still cannot log in to your account, 
+  search your old email for an email with subject "
+  %b mit.edu mailing list memberships reminder
+  \" sent from " 
+  %b mailman-owner [@] mit.edu
+  \".  
+  This will have a list of all the lists you are 
+  subscribed to at mit.edu, the email address with 
+  which you are subscribed, and the password 
+  associated with each subscription. 
+  This should allow you to log on and unsubscribe in the
+  %a{:href => "#FAQ-ChangeOptions"} previous FAQ entry
+  .
+  %p
+    If you cannot find this email, or deleted it, 
+    send an email to tango-L-owner@mit.edu with
+    %i (a)
+    your full name,
+    %i (b)
+    the list(s) you wish to be unsubscribed from,
+    %i (c)
+    all possible email addresses or
+    variants under which you could have been subscribed,
+    %i (d)
+    a forwarded email with headers of mail you are 
+    receiving from each list from which you wish
+    to be unsubscribed, and the list administrator will 
+    take care of it for you.
+
+
+///////////////////////////////////////////////////
+/ FAQ Change Email
+%a{:name => "FAQ-ChangeEmail"}>
+.question
+  I have a new email address and I want to change it 
+  in the list. How can I do it?
+.answer
+  Log on to your subscription page for changing your 
+  options following the
+  %a{:href => "#FAQ-ChangeOptions"} steps described above
+  . The very first section allows you to change your 
+  email address, and includes a checkbox to apply 
+  that change to all other lists at mit.edu that 
+  you happen to be subscribed to. 
+  This is much better than unsubscribing and 
+  resubscribing, as
+  %i (a)
+  it is much faster and
+  %i (b)
+  it preserves all your settings (digest,
+  topics for Tango-A, etc.).
+
+
+///////////////////////////////////////////////////
+/ FAQ Plaintext
+%a{:name => "FAQ-Plaintext"}>
+.question
+  How do I send mail in "plaintext" (whatever that is) 
+  as opposed to HTML (whatever
+  %i that
+  is)?
+.answer
+  The Tango-L and Tango-A lists discourage the use of HTML or
+  formatted email (with colours, bold text, etc.) so as
+  %i (a)
+  to emphasize the content and not the excessive use of 
+  typography or visual hyperbole and
+  %i (b)
+  to reduce the size of digests, archives and postings 
+  in general, and for
+  better compatibility with mailers. 
+  Unfortunately, most contemporary mailers
+  default to formatted or HTML mail composition. 
+  You have to find the option in
+  your mail sending program to turn off formatting 
+  (many mail programs allow you
+  the option of setting the preference of individual 
+  entries in your address-book
+  to "formatted" "unformatted" mail, so set up the 
+  Tango-L and Tango-A posting
+  addresses in your address-book with those preferences, 
+  or set it globally to "plaintext."
+  %p
+    There is a more detailed discussion of this subject, along with detailed
+    instructions on how to do this for seemingly every possible mailer out there, at
+    %a{:href => "http://www.expita.com/nomime.html", :target => "_blank"}>
+      http://www.expita.com/nomime.html
+    . Here are our instructions for selected mailers (if you use a different one and
+    would like to add instructions for your mailer to help other users who use that
+    mailer, please email these instructions to tango-L-owner@mit.edu  and they
+    will be incorporated here):
+  %p
+    %i
+      %b Google Mail Beta:
+    On the Compose page, if a formatting bar
+    (font selections, etc.) appears below the Subject: 
+    field, click on "« Plain text". (When it shows 
+    "Rich formatting »", you are correctly in 
+    "Plain Text" mode.)
+  %p
+    %i
+      %b Mozilla Thunderbird 2.0:
+    Tools &gt; Account Settings &gt; Composition
+    \&amp; Addressing. Uncheck the box that says, 
+    "Compose messages in HTML Format."
+    Alternatively, go to Tools &gt; Options &gt; 
+    Composition &gt; General &gt; Send Options &gt;
+    Plain Text Domains. Under Text Format, select the 
+    option, "Convert the message to Plain Text."
+  %p
+    %i 
+      %b Netscape Mail 7.1:
+    Edit &gt; Preferences &gt; Mail and
+    Newsgroups &gt; Send Format. 
+    Select "Convert the message to plain text" and under
+    "Plain Text Domains," add
+    %b mit.edu
+    .
+  %p
+    %i 
+      %b Yahoo Mail (original):
+    In mail window, click Options (upper
+    right) &gt; General Preferences (under Management) &gt; Select "Compose Messages as
+    plain text" (under Composing E-mail). Click Save.
+  %p
+    %i
+      %b Yahoo Mail Beta or New:
+    In mail compose window, if a formatting
+    bar (font selections, etc.) are shown below the Subject: field, click on "Plain
+    Text" to the right of the Subject: field. When it shows "Rich Text" to the right
+    of the Subject: field, you are correctly in "Plain Text" mode.
+
+
+///////////////////////////////////////////////////
+/ FAQ TOPICS
+%a{:name => "FAQ-Topics"}>
+.question
+  What are the "geographical prefix" letters
+  like "NA-E:" that appear in the Subject of Tango-A postings and why do I need
+  them?
+.answer
+  Every posting to Tango-A (this doesn't apply to Tango-L)
+  %i must
+  be preceded with a prefix (SA:, NA-E:, NA-C:, NA-W:, EU-W:, EU-E:, AASP: or MISC:)
+  that indicates the part of the world that 
+  the event being announced is being held. 
+  (This is sometimes referred to as a "Topic" as well.) 
+  If this is not included, the posting will likely 
+  not be distributed to the majority of members
+  on the list. 
+  The format of this prefix must be exactly as 
+  written above (in
+  upper case followed by a colon and a space) 
+  and then the subject. 
+  And it must be one of the above list -- you 
+  cannot invent your own prefix even if 
+  you think it makes more sense. 
+  See the
+  %a{:href => "tango-A-rules.htm#Topics"} Topics section at the Tango-A rules page
+  for further details, including the table that 
+  maps the prefix to the relevant
+  area of the world, if you plan to or are 
+  trying to post to Tango-A.
+  
+
+///////////////////////////////////////////////////
+/ FAQ NOT ALLOWED
+%a{:name => "FAQ-NotAllowed"}>
+.question
+  I tried to send a message to the list and got a automatic reply saying that I
+  am not allowed to post to the list! Why is that? I've been a member of the list
+  for ages!
+.answer
+  The lists only permit postings from those who
+  are members of the list. 
+  If you are a member of the list, the mostly 
+  likely explanation for the
+  rejection is that you are trying to post from a 
+  different email address than the
+  one under which you are subscribed. 
+  Perhaps your university or company changed
+  the way your email looks when it goes out 
+  (from jsmith@company.com to
+  john.w.smith@company.com, for example). 
+  The list software has no way of knowing
+  that these are the same person. 
+  See the FAQ entry on
+  %a{:href => "#FAQ-ChangeOptions"} Changing your list options
+  to check your current subscription. 
+  You can change your email address there, or 
+  if you wish to
+  have the option of posting from multiple email 
+  addresses, while still receiving your list 
+  mail to only one of them, you can subscribe
+  %i all
+  the addresses to the list, and sent all but 
+  one of them to "Nomail" so you do not receive
+  multiple copies of list mail.
+  %p
+    The other (less likely) possibility is that you 
+    were actually automatically
+    unsubscribed from the list because your email 
+    was bouncing (perhaps owing to a
+    full mailbox or a server problem at your end).
+    The list processor requires
+    several bounces over a period of several days 
+    to unsubscribe someone so you
+    would have had to have a pretty serious mail 
+    delivery problem for this to happen.
+    %a{:href => "#FAQ-ChangeOptions"} Check your subscription
+    to see if this
+    happened and resubscribe (possibly under a more 
+    reliable email ID).
+
+
+///////////////////////////////////////////////////
+/ FAQ DISAPPEAR
+%a{:name => "FAQ-DisappearedMail"}>
+.questoin
+  My mail to the list did not appear on the list and 
+  I got no explanatory
+  message or rejection. What happened?
+.answer
+  There are several possibilities. Here are various possibilities,
+  from most to least likely:
+  %ul
+    %li
+      You
+      %i did
+      get an explanatory message but your spam-catcher 
+      was set too aggressively and filtered it. 
+      Check your Junkmail or Bulkmail folder, or
+      set your spam filtering options to allow all mail 
+      from mailman@mit.edu,
+      mailman-owner@mit.edu and mailman-bounces@mit.edu.
+    %li    
+      You sent an email to Tango-A but did not include the geographical prefix
+      (SA:, NA-E:, NA-C:, NA-W:, EU-W:, EU-E:, AASP: or MISC:) or entered it
+      incorrectly. In this case, the mail
+      %i does
+      get sent to everyone who has a
+      digest subscription even though it didn't match any topics (since digest
+      subscribers get all topics), so it is not flagged as undeliverable even though
+      it in fact was not delivered as intended. Hence, you didn't get an error
+      message back. Check the
+      %a{:href => "tango-A-rules.htm#Topics"} 
+        formatting of the
+        geographical prefix at the Tango-A rules page
+      , and resubmit if that was the problem.  
+    %li
+      Your list options are set
+      %i not
+      to receive a copy of your own
+      postings. This is unlikely but possible, since it is not the default option
+      and you would have had to change it explicitly in your subscriptions options.
+      Furthermore, most subscribers
+      %i want
+      to see a copy of their own postings
+      so are unlikely to set this option. But it's a possibility, so you can
+      %a{:href => "#FAQ-ChangeOptions"} check your subscription options
+      to see if
+      this is the case.
+
+
+///////////////////////////////////////////////////
+/ FAQ No Mail
+%a{:name => "FAQ-NoMail"}>
+.question
+  I am subscribed to the list but am not
+  receiving (or have stopped receiving) email from the list.
+.answer
+  There are several possible reasons. Here they are, along with
+  possible solutions, in order of likelihood:
+  %ul
+    %li
+      Mail from the list is being filtered by your 
+      spam-catcher of mail filter.
+      Check your Junkmail or Bulkmail folder, and if 
+      that was the reason, set your
+      spam filtering options to allow mail from the 
+      Tango-L and Tango-A list(s). 
+      How to do this depends on the particular spam 
+      catcher, but the easiest way is to
+      allow any mail that has the words Tango-L or 
+      Tango-A anywhere in the header.
+      If you need to be more specific, all mail from 
+      the Tango-L list should have
+      the email address
+      %b tango-L [@] mit.edu
+      in the To: or Cc: field, and all mail
+      from the Tango-A list should have the email 
+      address
+      %b tango-A [@] mit.edu
+      in the To: or Cc: field.
+    %li  
+      If you were having persistent problems with your 
+      email delivery, it is
+      possible that you got unsubscribed from the list, 
+      or had your subscription
+      suspended (a intermediate state before you get 
+      unsubscribed). To check this,
+      do the following: Log on to the list server to 
+      check your subscription options
+      %a{:href => "#FAQ-ChangeOptions"} 
+        as described above
+      .
+    %li
+      If neither of these is the problem, then it could 
+      be a third issue that
+      has sometimes cropped up: The domain
+      %b mit.edu
+      somehow gets tagged as a
+      blacklisted domain by certain ISPs, who stop 
+      delivering mail originating from
+      %b mit.edu
+      .
+
+
+///////////////////////////////////////////////////
+/ FAQ Content Type
+%a{:name => "FAQ-ContentType"}>
+.question
+  "The message's content type was not explicitly allowed"
+.answer
+  If you get this message, this means that the post was rejected
+  automatically by the server (the list administrator will never know that this
+  happened, so you should email
+  tango-L-owner [@] mit.edu if you cannot resolve this problem). In general, this
+  happens when you send email in HTML format and not in plaintext format (although
+  it does not happen
+  %i every time
+  you do this ...). Send the message in
+  plaintext (see
+  %a{:href => "#FAQ-Plaintext"} related FAQ article
+  )
+
+
+///////////////////////////////////////////////////
+/ FAQ Remove Posting
+%a{:name => "FAQ-RemovePosting"}>
+.question
+  I changed my mind about a posting I
+  made (or said something embarrassing that I now regret, or is coming back to
+  haunt me) and want to make it go away!
+.answer
+  Hmm, you didn't read the section in the list posting 
+  rules
+  %a{:href => "tango-L-rules.htm#POLICY-Privacy"}
+    that addressed this topic
+  . The  short answer is that the email certainly 
+  cannot be withdrawn once it is sent and distributed. 
+  In addition, the list is
+  %a{:href => "#Archives"} archived
+  in more than one Google-searchable location,
+  some of which are private archives that the list 
+  managers have no control or
+  jurisdiction over. 
+  If you believe you have a strong-enough case, you
+  would need
+  to contact the owners of each of these archives 
+  (basically wherever you get a
+  hit for your posting on Google) and request or 
+  persuade them to remove the
+  posting. 
+  You are not likely to be 100% successful, but some 
+  may accommodate you.
+
+
+///////////////////////////////////////////////////
+/ FAQ Why Moderated
+%a{:name => "FAQ-WhyModerated"}>
+.question
+  My mail to the list did not appear on
+  the list and I got an email saying it was sent to the moderator for approval.
+  Why are my posts being moderated and those of others not?
+.answer
+  The Tango-L and Tango-A lists are "lightly moderated," i.e., most
+  members' posts go directly to the list without delay and without needing
+  approval by the moderator. 
+  However,
+  persistent and/or intentional and/or severe violators of the list rules may have
+  their postings screened (there are generally just a small handful of those at
+  any given point in time). 
+  A full explanation of How the Tango-L List is
+  Moderated may be found at this article that was 
+  posted to Tango-L, but a summary
+  of all the reasons that your post may be moderated 
+  appear below (most of
+  them -- those in Category (1) -- 
+  are innocuous technical reasons).  
+  %ol
+    %li
+      %u>
+        %b Category 1
+      \. A "normal" reason that has nothing to do with
+      the content of your posting
+      %i per se
+      :
+      %ul
+        %li
+          %b You just joined the list.
+          New members to the list (this includes
+          those who resubscribed under a different email address) are automatically put
+          on moderation status. This is mainly to avoid spammers who sometimes subscribe
+          to lists in order to spam the entire list (although it does have the effect of
+          catching most "newbie" errors also). If it is a legitimate posting, it will be
+          approved, usually within 24 hours or less, or you will get a response
+          explaining any modification you need to make before resubmitting it. After a
+          few legitimate postings, your moderation status will be cleared and your
+          messages will go through immediately.
+        %li        
+          %b Message too large.
+          There is a limit of 5K (about 5,000
+          characters) on list messages. That's about 100 lines of text and even the most
+          verbose and rambling poster rarely writes that much. So either you have
+          %i (a)
+          sent the message in
+          %a{:href => "#FAQ-Plaintext"} HTML format
+          (which easily
+          quadruples the size of the message) or
+          %i (b)
+          tried to include an
+          attachment (photo, etc.) to the message (see list rules on
+          %a{:href => "tango-L-rules.htm#FORMATTING-Plaintext"} No Attachments
+          )
+          %i (c)
+          you have quoted unnecessarily from a previous 
+          message (see list rules on
+          %a{:href => "tango-L-rules.htm#FORMATTING-DontQuote"} 
+            Limiting Quoting
+          ).
+          You can fix this problem, cancel your posting 
+          (if the moderator didn't already reject it), 
+          and resubmit. 
+          In the event that you truly 
+          %i did
+          have a really 
+          long plain-text article of several hundred lines 
+          (there have been a few), the moderator will 
+          automatically accept it, but you can send an
+          email to Tango-L-owner [@] mit.edu pointing this 
+          out if you wish.
+        %li
+          %b "Blind Carbon Copies not allowed" or "Too Many Recipients in the List."
+          The list address (Tango-L@mit.edu
+          or Tango-A@mit.edu must appear in the "To:" 
+          field of your email message. 
+          If you are sending a mass mailing that 
+          includes Tango-L or Tango-A and your
+          mailer does not explicitly but the list 
+          address in the "To:" line, it will be rejected. 
+          Similarly, if it
+          %i is
+          on the "To:" list but with many other email 
+          addresses, it will also be rejected. 
+          These are among the spam protection mechanisms,
+          and also serves to discourage organizers from 
+          adding Tango-A to their regular mailing list. 
+          Send a separate email to Tango-L or Tango-A, 
+          meeting all its formatting and postings rules, 
+          and you should be fine.
+    %li
+      %u>
+        %b Category 2
+      \. To get the attention of someone who has some
+      relatively minor violation (e.g., unnecessarily attaching the entire previous
+      email), but who seems to ignore the repeated reminders they receive pointing
+      this out. It generally gets their attention when they
+      %i have
+      to read and
+      act on the reminder email in order for their posts to get through. This is
+      really more like putting someone back in Category 1, since they are newbie
+      type errors, rather than intentional or severe rules violations. Once it is
+      clear that they have figured out how to fix their postings, their moderation
+      status gets removed rather quickly.
+    %li
+      %u>
+        %b Category 3
+      \. Someone is put on moderated status by the
+      moderator for intentional and/or severe and/or repeated list abuse or rules
+      violations, or for a statement of intent to do so, or for behaviour that
+      indicates that they do not intend to follow the rules. These are the problem
+      members and there are generally just a small handful of them (2-3 if at all)
+      at any given point. They tend to share some or all of the following
+      characteristics:
+      %b
+        %i (a)
+      generally have an attitude, or indication
+      from their words or behaviour, that they are above the rules,
+      %b
+        %i (b)
+      tend to take up a disproportionate amount of the moderators' time and have a
+      disproportionately negative influence on the list,
+      %b
+        %i (c)
+      generally have engaged in extremely disruptive 
+      behaviour such as flaming, trolling,
+      rants, etc. (which are strongly enforced--see the
+      %i
+        %a{:href => "tango-L-rules.htm#RELEVANCE-NoFlames"}
+          Section of the Tango-L list
+          rules on No Flames, Rants, Swearing and Personal Attacks
+      )
+      %b
+        %i (d)
+      know that they are in this category from having received multiple
+      or strong warnings. Their postings are always moderated and for an indefinite
+      period. They do not receive responses to non-compliant posts or often even to
+      their other correspondence until they have agreed in writing to abide by the
+      rules. In some cases, none of their posts are approved anymore (even if they
+      are otherwise compliant) because they have demonstrated a complete disregard
+      for the rules. If you have managed to get yourself into this category, the
+      only way to get your posts approved or even to receive any kind of response
+      from the moderators (other than a request to be unsubscribed) is to send an
+      email to tango-L-owner [@] mit.edu stating in an unqualified and sincere
+      manner that you have read the rules and agree to abide by them in all future
+      posts (your posts are still likely to be moderated for a while, probably
+      indefinitely, owing to your past abuses and violation of implicit trust until
+      you have regained that trust).
+
+
+///////////////////////////////////////////////////
+/ FAQ Why Rules Reminder
+%a{:name => "FAQ-WhyRulesReminder"}
+.question
+  Why did I get a reminder or warning
+  about a rule infraction when I see occasionally other posts that have violated
+  that same rule?
+.answer
+  This could be for one of several reasons:
+  %ul
+    %li
+      Your posts are still being moderated (see the
+      %a{:href => "#FAQ-WhyModerated"} FAQ entry above
+      ) 
+    %li
+      Since the moderators don't necessary read every post or read them every
+      day, some rules violations, even blatant ones, may escape his attention. Yours
+      was probably noticed and/or brought to the moderators' attention while the
+      other wasn't.
+
+  In either case, you are encouraged to bring the other offending post to the
+  moderators' attention if you wish, by forwarding a copy of it to tango-L-owner
+  [@] mit.edu.
+
+
+///////////////////////////////////////////////////
+/ FAQ Dont Like Rules
+%a{:name => "FAQ-DontLikeRules"}
+.question
+  What if I don't agree with the list
+  rules or the way they are being enforced?
+.answer
+  Depending on your exact issue, there are different answers:
+  %ul
+    %li
+      Participation in the Tango-L and Tango-A lists 
+      requires that you agree to abide by the list rules. 
+      If you do not so agree, you are required by the 
+      rules to
+      %a{:href => "#Subscribe"} unsubscribe
+      from the list. You may still read
+      posts by others at the
+      %a{:href => "#Archives"} list archives
+      .
+    %li
+      If you feel the rules are not being adequately 
+      enforced, to the detriment
+      of the list, you may send a copy of the violating 
+      post(s) and the moderators
+      will take action on it if necessary, and depending 
+      on their time and workload.
+      (If you wish to volunteer as a list moderator, you 
+      may also indicate your
+      desire to do so and help the time and workload issue.)
+    %li
+      If you feel your posts are being denied
+      %i even though they comply with all the rules
+      , you may send a politely worded explanation of 
+      your point of view to the moderators at 
+      tango-L-owner [@] mit.edu, and they will reply 
+      if they accept your explanation. 
+      (Make sure you have read the
+      %a{:href => "tango-L-rules.htm"} Tango-L
+      and
+      %a{:href => "tango-A-rules.htm"} Tango-A
+      rules, as well as the article on
+      %i
+        %a{:href => "tango-L-moderation.htm"}
+          How the Tango-L List is Moderated
+      before you do so.) 
+      There is currently no other appeal mechanism. 
+      Rude, defiant or abusive emails will not be 
+      responded to (and is not likely to further your case anyway).
+
+
+///////////////////////////////////////////////////
+/ FAQ Other
+%a{:name => "FAQ-Other"}>
+.question
+  I have another question that is not answered on the FAQ nor anywhere else on
+  this website as far as I can tell.
+.answer
+  Send an email to the list owner at Tango-L-owner 
+  [@] mit.edu with your
+  question and he will attempt to answer it 
+  (and possibly include it on the next
+  edition of the FAQ if others are likely to have a 
+  similar question). 
+  Make sure
+  to include any supporting email you got 
+  (preferably with all the headers) and
+  exactly what you did and what unexpected response 
+  (or lack of response) you got.
+  (Just saying, "It didn't work," doesn't give much 
+  to go on ...) If your question
+  %i is
+  on the FAQ but following the steps specified 
+  didn't work, be sure to
+  mention this (including all the steps you did 
+  in detail and their results),
+  otherwise the list administrator is just likely 
+  to point you back to that FAQ entry!
